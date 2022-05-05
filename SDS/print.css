@@ -1,0 +1,55 @@
+#hide {
+  display: none;
+}
+
+span#Overall_Description ul,span#Other_Nonfunctional_Requirements ul, span#Appendix_C ul{
+  margin-left: 5%;
+}
+
+ul.a {
+  list-style-type: square;
+}
+
+.sidebar {
+  width: 0%;
+}
+
+div.content {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.intro {
+  display: none;
+}
+
+.coverpg_toc {
+  display: block;
+}
+.cover{
+  text-align: right;
+  font-size: 30px;
+}
+
+/* .toc p, .toc ol,.toc li{
+  text-align: justify;
+} */
+
+.toc_inside{
+  text-align: justify;
+  text-align-last: justify;
+}
+
+.cover,.toc{
+  page-break-after: always;
+}
+.line_break{
+  page-break-after: always;
+}
+.line_break_before{
+  page-break-before: always;
+}
+
+table {
+      page-break-inside: avoid;
+   }
